@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0px ; 
+}
+
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+    background-color: crimson;
+    text-transform : uppercase ; 
+    
+}
+
+.intro h1 {
+    padding: 20px ; 
+    text-align: center;
+    text-shadow: rgb(255, 234, 150) 1px 0 10px;
+}
+
+.image {
+    width: 20% ; 
+    margin: auto;
+}
+
+.image img {
+    width : 100% ; 
+}
+
+.description{
+    width: 60%;
+    margin: auto;
+}
+
+.description p {
+    text-align: center;
+    padding: 20px;
+    line-height: 2em;
+}
+
+
+.naviguation h2 {
+    border: black solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 18%;
+    margin: auto ; 
+    
+}
+
+.naviguation ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    justify-content: space-between;
+}
+
+.naviguation li {
+    list-style: none;
+    padding : 10px 20px 10px 20px ;
+    background-color: crimson;
+    border : black solid ; 
+    
+    
+}
+
+li:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.logo_contact img {
+    width: 2%;
+    padding: 2px;
+}
+
+.logo_contact p {
+    padding: 20px 0px 20px 20px ;
+}
+
+footer{ 
+    background-color: rgb(189, 176, 174);
+}

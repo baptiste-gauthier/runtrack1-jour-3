@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.photo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.image {
+    width: 20%;
+    font-size: 0;
+    
+}
+
+.description {
+    width: 80%;
+}
+
+img {
+    width: 100%;
+}
+
+.description p {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+li:hover {
+    border-bottom: black solid;
+    cursor: pointer;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+
+
+.contact p {
+
+    padding: 10px;
+
+}
+
+.contact img {
+    width : 3% ; 
+}
+
+footer {
+    background-color: rgb(214, 240, 144);
+}
+
+.page_entiere {
+    width: 95%;
+    margin : auto; 
+}
+
+.logo_contact {
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin : auto ; 
+}
+
+.description {
+    background-color: rgb(214, 211, 207, 0.7);
+}
+
+
+
+
